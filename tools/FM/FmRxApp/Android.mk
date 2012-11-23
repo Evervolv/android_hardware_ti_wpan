@@ -27,9 +27,9 @@ LOCAL_PACKAGE_NAME := FmRxApp
 LOCAL_CERTIFICATE := shared
 LOCAL_JAVA_LIBRARIES := fmradioif
 
-include $(BUILD_PACKAGE)
+#include $(BUILD_PACKAGE)
 # Use the folloing include to make our test apk.
-include $(call all-makefiles-under,$(LOCAL_PATH))
+#include $(call all-makefiles-under,$(LOCAL_PATH))
 
 
 
